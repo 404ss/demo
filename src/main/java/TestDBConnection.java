@@ -5,9 +5,9 @@ import java.sql.SQLException;
 public class TestDBConnection {
     public static void main(String[] args) {
         // 1. 数据库连接信息（改成你自己的）
-        String url = "jdbc:mysql://localhost:3306/user_db?useSSL=false&serverTimezone=UTC";
+        String url = "jdbc:mysql://localhost:3306/user_db?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8&allowPublicKeyRetrieval=true";
         String user = "root";   // 比如 root
-        String password = "1qaz2wsx"; // 比如 123456
+        String password = "root1234"; // 比如 123456
 
         Connection conn = null;
         try {
